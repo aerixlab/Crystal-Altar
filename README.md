@@ -36,7 +36,7 @@ A smooth, gallery-style image viewer for browsing photos, SVGs, and Silhouette S
 
 ### Silhouette Studio (`.studio3`) previews
 
-Silhouette Studio's file format is proprietary and undocumented, so there's no public library that fully parses it. Crystal Altar uses a best-effort heuristic: it scans the raw file for embedded preview images and renders the best one it finds with crisp (non-blurred) scaling, since these designs are dense fields of small dots that blur/merge together under smooth scaling. This gets close to — but won't perfectly match — the live vector rendering Silhouette Studio's own Windows shell extension produces for Explorer thumbnails.
+Crystal Altar uses a best-effort approach to display previews from supported design files. It scans file data for embedded preview images and renders the best available preview with crisp scaling, helping preserve detail in designs containing many small dots. Preview results may differ from how the original software renders the design.
 
 Crystal Altar is an independent personal project and is not affiliated with, endorsed by, or sponsored by Silhouette America. "Silhouette Studio" is a product of Silhouette America; it's referenced here only to describe file compatibility.
 
