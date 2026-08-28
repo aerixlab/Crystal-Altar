@@ -24,6 +24,16 @@ A smooth, gallery-style image viewer for browsing photos, SVGs, and Silhouette S
 - **Right-click menu** — open the real file in its default app, rename, delete (recycle bin support via `send2trash`), show in folder, copy path
 - **Custom app icon** and a dark, minimalist UI
 
+<img width="1333" height="916" alt="Screenshot 2026-08-28 142623" src="https://github.com/user-attachments/assets/0c2ddca6-f41c-401f-b449-c1cccfa1d83a" />
+
+<img width="1323" height="909" alt="Screenshot 2026-08-28 144131" src="https://github.com/user-attachments/assets/8fa78255-0725-4445-a10d-f23467faa065" />
+
+<img width="1322" height="906" alt="Screenshot 2026-08-28 142644" src="https://github.com/user-attachments/assets/6c679535-815a-4efe-ba7a-151892753bb5" />
+
+<img width="1329" height="908" alt="Screenshot 2026-08-28 142706" src="https://github.com/user-attachments/assets/9ec1455f-8a8c-47e1-b27b-e57314d4d222" />
+
+
+
 ### Silhouette Studio (`.studio3`) previews
 
 Silhouette Studio's file format is proprietary and undocumented, so there's no public library that fully parses it. Crystal Altar uses a best-effort heuristic: it scans the raw file for embedded preview images and renders the best one it finds with crisp (non-blurred) scaling, since these designs are dense fields of small dots that blur/merge together under smooth scaling. This gets close to — but won't perfectly match — the live vector rendering Silhouette Studio's own Windows shell extension produces for Explorer thumbnails.
