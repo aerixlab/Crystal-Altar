@@ -1,5 +1,7 @@
-## We just release v1.0 EXE file. 
-**Download**: Go to the Releases section to download the latest Windows version.
+### We just release v1.0 EXE file. 
+**Download** - Go to the Releases section to download the latest Windows version or click this link:
+[⬇ Download the latest version](https://github.com/aerixlab/Crystal-Altar/releases/latest)
+
 
 # Crystal Altar
 
@@ -40,8 +42,9 @@ Crystal Altar uses a best-effort approach to display previews from supported des
 
 Crystal Altar is an independent personal project and is not affiliated with, endorsed by, or sponsored by Silhouette America. "Silhouette Studio" is a product of Silhouette America; it's referenced here only to describe file compatibility.
 
-## Download (.EXE): 
-Go to the Releases section to download the latest Windows version.
+## Download
+
+[⬇ Download the latest version of Crystal Altar](https://github.com/aerixlab/Crystal-Altar/releases/latest)
 
 ## Installation
 
